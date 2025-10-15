@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f2e0e0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Josefin Slab", "Times New Roman", Times, serif;
+}
+
+input {
+    border: none;
+    background-color: #fbe8e8;
+}
+
+input:focus {
+    outline: none;
+}
+
+.promise-tracker {
+    background-color: #fffafa;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+.promise {
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d9d9;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.promise div {
+    margin-bottom: 12px;
+}
+
+.promise textarea {
+    width: 400px;
+    height: 5rem;
+}
+
+.promise-name {
+    max-width: 400px;
+    font-size: 24px;
+    height: 24px;
+}

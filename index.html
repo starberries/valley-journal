@@ -11,22 +11,29 @@
         <h1>Valley Journal</h1>
         <!-- Promise Tracker -->
         <h2>Promises</h2>
-        <div class="promise">
-            <label for="promise-name">Name</label>
-            <input type="text" name="promise-name" id="" />
-            <select name="promise-complexity" id="promise-complexity">
-                <option value="simple">Simple</option>
-                <option value="complicated">Complicated</option>
-                <option value="puzzling">Puzzling</option>
-            </select>
-            <select name="promise-urency" id="promise-urgency">
-                <option value="laid-back">Laid-Back</option>
-                <option value="urgent">Urgent</option>
-                <option value="critical">Critical</option>
-            </select>
-            <input class="progress-box" type="button" value="0" />
-            <input class="progress-box" type="button" value="0" />
-            <input class="progress-box" type="button" value="0" />
-        </div>
+        <section class="promise-tracker">
+            <button class="add">New +</button>
+            <div class="promise">
+                <div>
+                    <input type="text" placeholder="Name" name="promise-name" />
+                    <select name="promise-complexity">
+                        <option value="simple">Simple</option>
+                        <option value="complicated">Complicated</option>
+                        <option value="puzzling">Puzzling</option>
+                    </select>
+                    <select name="promise-urency">
+                        <option value="laid-back">Laid-Back</option>
+                        <option value="urgent">Urgent</option>
+                        <option value="critical">Critical</option>
+                    </select>
+                </div>
+                <div>
+                    <input class="progress-box" type="button" value="0" />
+                    <input class="progress-box" type="button" value="0" />
+                    <input class="progress-box" type="button" value="0" />
+                </div>
+                <textarea name="promise-notes" placeholder="Notes"></textarea>
+            </div>
+        </section>
     </body>
 </html>
